@@ -4,12 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.toastshaman</groupId>
+    <groupId>com.github.situokko</groupId>
     <artifactId>dropwizard-auth-jwt</artifactId>
-    <version>1.1.0-0</version>
+    <version>1.1.0-jose4j060</version>
     <name>dropwizard-auth-jwt</name>
     <description>
         An implementation of the JSON Web Token (JWT) draft-ietf-oauth-json-web-token-20 for Dropwizard.
+
+        Forked from original ToastShaman version with only updated Jose4J dependecy. Using this release
+        for as long as ToastShaman merges the PR.
+
+        THIS FORK WILL NOT BE MAINTENANCED!
     </description>
     <url>https://github.com/ToastShaman/dropwizard-auth-jwt</url>
 
